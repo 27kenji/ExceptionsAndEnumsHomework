@@ -16,7 +16,7 @@ public enum PaymentChoice {
         this.online = online;
     }
 
-    //нужно сгенерировать геттеры, чтобы доставать значения полей enum. Все ради того, чтобы доставать значения полей
+    //нужно сгенерировать геттеры, чтобы доставать значения полей enum
 
     public boolean isOnline() {
         return online;
